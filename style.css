@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(201, 221, 244, 0.722);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.132)
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+
+.input {
+    margin: 10px;
+}
+
+.input input {
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+
+.input label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.units {
+    margin: 10px;
+}
+
+.units label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.units select {
+    padding: 7px;
+    outline: none;
+}
+
+.units select:hover {
+    background-color: aliceblue;
+}
+
+.buttons .btn{
+    padding: 7px 50px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.result {
+    margin: 10px
+}
+
+.result label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.result input {
+    padding: 7px;
+    border: none;
+    outline: none;
+}
